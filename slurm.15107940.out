@@ -1,0 +1,53 @@
+WHERE I AM FROM: /home/puoza/p2/Pointnet_Pointnet2_pytorch
+WHERE AM I NOW: /home/puoza/p2/Pointnet_Pointnet2_pytorch
+Loading python 3 from anaconda module
+Loading scientific computing python environment for PointNet++
+Running PointNet++ training script
+PARAMETER ...
+Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_sem_seg', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+start loading training data ...
+[1.1275877 1.1793921 1.        2.4263902 2.4384036 2.3999221 1.7152665
+ 2.1824524 1.8685688 3.7977378 1.7766123 2.8874466 1.350537 ]
+Totally 37525 samples in train set.
+start loading test data ...
+[1.1463687 1.1881123 1.              inf 2.5081315 1.9513355 2.1256948
+ 2.074821  2.57662   4.742235  1.5677795 2.9299796 1.6441832]
+Totally 13048 samples in test set.
+The number of training data is: 37525
+The number of test data is: 13048
+Use pretrain model
+**** Epoch 1 (1/32) ****
+Learning rate:0.001000
+BN momentum updated to: 0.100000
+Training mean loss: nan
+Training accuracy: 0.196856
+Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+Saving model....
+---- EPOCH 001 EVALUATION ----
+eval mean loss: nan
+eval point avg class IoU: 0.016132
+eval point accuracy: 0.209714
+eval point avg class acc: 0.076923
+------- IoU --------
+class ceiling        weight: 0.069, IoU: 0.210 
+class floor          weight: 0.210, IoU: 0.000 
+class wall           weight: 0.187, IoU: 0.000 
+class beam           weight: 0.291, IoU: nan 
+class column         weight: 0.000, IoU: 0.000 
+class window         weight: 0.020, IoU: 0.000 
+class door           weight: 0.040, IoU: 0.000 
+class table          weight: 0.031, IoU: 0.000 
+class chair          weight: 0.035, IoU: 0.000 
+class sofa           weight: 0.018, IoU: 0.000 
+class bookcase       weight: 0.003, IoU: 0.000 
+class board          weight: 0.084, IoU: 0.000 
+class clutter        weight: 0.012, IoU: 0.000 
+
+Eval mean loss: nan
+Eval accuracy: 0.209714
+Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+Saving model....
+Best mIoU: 0.016132
+**** Epoch 2 (2/32) ****
+Learning rate:0.001000
+BN momentum updated to: 0.100000

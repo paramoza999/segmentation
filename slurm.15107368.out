@@ -1,0 +1,21 @@
+WHERE I AM FROM: /home/puoza/p2/Pointnet_Pointnet2_pytorch
+WHERE AM I NOW: /home/puoza/p2/Pointnet_Pointnet2_pytorch
+Loading python 3 from anaconda module
+Loading scientific computing python environment for PointNet++
+Running PointNet++ training script
+PARAMETER ...
+Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_sem_seg', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+start loading training data ...
+[1.1275877 1.1793921 1.        2.4263902 2.4384036 2.3999221 1.7152665
+ 2.1824524 1.8685688 3.7977378 1.7766123 2.8874466 1.350537 ]
+Totally 37525 samples in train set.
+start loading test data ...
+[1.1463687 1.1881123 1.              inf 2.5081315 1.9513355 2.1256948
+ 2.074821  2.57662   4.742235  1.5677795 2.9299796 1.6441832]
+Totally 13048 samples in test set.
+The number of training data is: 37525
+The number of test data is: 13048
+No existing model, starting training from scratch...
+**** Epoch 1 (1/32) ****
+Learning rate:0.001000
+BN momentum updated to: 0.100000
